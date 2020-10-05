@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+body{
+  margin: 0;
+  padding: 0;
+ }
+ /* Header */
+ article, aside, figcaption, figure,
+  footer, header, hgroup, main, nav, section {
+   display: flex;
+ }
+ .menu {
+   background: linear-gradient(30deg,#e7f3fa,#e7f3fa);
+ }
+ .menu ul{
+   display: inline-flex;
+   margin: 50px;
+ }
+ .menu ul li {
+   list-style: none;
+   margin: 0 10px;
+   color: rgb(0, 0, 0);
+   cursor: pointer;
+ }
+ .logo img {
+   width: 70px;
+   margin-top: -7px;
+   margin-right: 28px;
+ }
+ .signup-btn {
+   top: 40px;
+   right: 80px;
+   position: absolute;
+   text-decoration: none;
+   color: black;
+   border: 2px solid transparent;
+   border-radius: 20px;
+   background-origin: border-box;
+   background-clip: content-box,border-box;
+ 
+ }
+ .signup-btn span {
+   display: block;
+   padding: 8px 22px;
+ }
+ 
+ /* First Background */
+ .home {
+   background: url('/images/blue_bg.png') no-repeat center center;
+   background-size: cover;
+   height: 530px;
+ }
+ .waves {
+   width: 100%;
+   margin-bottom: 100px;
+   padding-bottom: 40px;
+ }
+ 
+ .h1h1h1 {
+   display: block;
+   font-size: 34px;
+   margin-top: 100px;
+   margin-left: 100px;
+   float: left;
+ }
+ .h1h1h1 span {
+   color: blueviolet;
+ }
+ .p2 {
+   display: block;
+   font-size: 16px;
+   margin-left: -360px;
+   margin-top: 150px;
+   float: left;
+ }
+ .iaiaiaimg {
+   /*background: url('/images/Mask Group 1.png') center center no-repeat;*/
+   display: flex;
+   float: right;
+   /*background-size: 300px;*/
+   margin-left: 500px;
+   width: 50%;
+   margin-top: -290px;
+ }
+ .iiaimg {
+   display: flex;
+   float: right;
+   margin-left: 570px;
+   margin-top: -540px;
+   width: 28%;
+   height: 450px;
+ }
+ .iaiaimg {
+   display: flex;
+   float: right;
+   margin-left: 595px;
+   margin-top: -230px;
+   width: 25%;
+ }
+ 
+ .image {
+   width: 150px;
+   height: 150px;
+   margin-left: 50px;
+   margin-bottom: 10px;
+   margin-top: 100px;
+ }
+ .H111 {
+   width: 210px;
+   margin-left: 50px;
+   color: blueviolet;
+   font-size: 20px;
+   margin-right: 14px;
+ }
+ .pp {
+   color: rgb(71, 71, 71);
+   font-size: 14px;
+   width: 260px;
+   margin-left: 40px;
+   margin-right: 14px;
+ }
+ .image1 {
+   width: 150px;
+   height: 150px;
+   margin-left: 40%;
+   margin-top: -40px;
+   margin-bottom: 10px;
+ 
+ }
+ .H1111 {
+   width: 210px;
+   margin-left: 40%;
+   color: blueviolet;
+   font-size: 20px;
+   margin-right: 14px;
+ }
+ .ppp {
+   color: rgb(71, 71, 71);
+   font-size: 14px;
+   width: 260px;
+   margin-left: 37%;
+   margin-right: 14px;
+   margin-bottom: 100px;
+ 
+ }
+ 
+ .client {
+   margin-bottom: 0px 0px 0px 0px;
+   position: absolute;
+ }
+ .footer .imggggggg {
+   width: 68%;
+   float: right;
+   margin-right: 220px;
+   margin-top: 100px;
+ 
+ }
+ .footer .imggggggggggs {
+   background: url('/images/Group 1131.png') no-repeat center center;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 500px;
+ }
+ .footer .social-list{ overflow: hidden; }
+ .footer .social-list li {
+   float: left;
+   margin-right: -35px;
+   color: white;
+   margin-left: 60px;
+ }
+ .footer .three-columns { overflow: hidden; }
+ .footer .three-columns li
+ {
+   float: left;
+   margin-left: 70px;
+   margin-top: 10px;
+   margin-right: -45px;
+ }
+ .footer .three-columns img { width: 25px; }
+ .buttonnn {
+   margin-top: 188px;
+   display: flex;
+   margin-right: 15px;
+   margin-left: 60px;
+ }
+ .buttonnn .li1 {
+   margin-right: 7px;
+   background-color: rgb(255, 255, 255);
+   padding: 5px;
+   border-radius: 13px;
+   font-size: 10px;
+ }
+ .buttonnn .li2 {
+   margin-right: 7px;
+   background-color: rgb(255, 255, 255);
+   padding: 5px;
+   border-radius: 13px;
+   font-size: 10px;
+ }
+ .imgg { width: 70%; }
+ .imggg {
+   width: 100%;
+   margin-top: -40px;
+ }
+ .H2 {
+   font-size: 16px;
+   margin-top: 0px;
+ }
+ .Parahrag {
+    font-size: 10px;
+    margin-bottom: 60px;
+ }
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 0px; 
+   margin-left: 0px;
+ }
+ .image2 {
+   float: left;
+   margin-bottom: 50px;
+   width: 300px;
+ }
+ .h4h4h4 {
+   color: white;
+   margin-bottom: -130px;
+   margin-right: 180px;
+   font-size: 16px;
+ }
+ .h4h4h4 span {
+   font-size: 34px;
+   color: white;
+ }
+ .image3 {
+   float: right;
+   width: 200px;
+   margin-right: 40px;
+ }
+ .H5555555 {
+   width: 210px;
+   margin-left: 52%;
+   color: blueviolet;
+   font-size: 18px;
+ }
+ .ppp555 {
+   color: rgb(71, 71, 71);
+   font-size: 13px;
+   width: 260px;
+   margin-left: 44%;
+   margin-right: 20px;
+   margin-bottom: 50px;
+ }
+ .imgg { width: 200px; }
+ .imggg {
+   width: 200px;
+   margin-top: -40px;
+ }
+ .H2 {
+   font-size: 16px;
+   margin-top: 10px;
+ }
+ .Parahrag {
+  font-size: 10px;
+   margin-bottom: 60px
+ }
+ 
